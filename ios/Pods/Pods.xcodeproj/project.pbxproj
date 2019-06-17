@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+		ED8B76EC90CA1D894B6D38663D04C292 /* AppCenterReactNativeShared */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */,
+			);
+			name = AppCenterReactNativeShared;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		167F5AC7CF8E6F0157B11DEA041DCE66 /* Pods-NaukriDemo-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41221E83C00CCF2BE40B6D435683E4AA /* Pods-NaukriDemo-tvOSTests-dummy.m */; };
+		35093B0635D472EBD58DB12EA6EFA5EF /* Pods-NaukriDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE178E1D3CAF8F7584CE075F33489AE /* Pods-NaukriDemo-dummy.m */; };
+		532187D0F1873761532863AA256F14A8 /* Pods-NaukriDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F791E47972193B261477F1C53018F0D6 /* Pods-NaukriDemoTests-dummy.m */; };
+		D4966DA96C1CA1D8720750EB4DD350F2 /* Pods-NaukriDemo-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBDDEABA8C7367EE727C2F1ACA018D /* Pods-NaukriDemo-tvOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211CD2E7EC573B5E9981EBEC32374560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7746B4D8C423970E66C4428FEBD612C9;
+			remoteInfo = "Pods-NaukriDemo-tvOS";
+		};
+		32FA5FD4FD89FD2CB236185D0605782D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397BBDFEBE9CC818487FA8ABB7623A33;
+			remoteInfo = AppCenter;
+		};
+		5530AFEB3B879A184509AD6EE9BE728F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881927558E5E873AAE7473C755430613;
+			remoteInfo = "Pods-NaukriDemo";
+		};
+		AECB9CEA14408934293E3F6CD384CB1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8B76EC90CA1D894B6D38663D04C292;
+			remoteInfo = AppCenterReactNativeShared;
+		};
+		D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397BBDFEBE9CC818487FA8ABB7623A33;
+			remoteInfo = AppCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F3996EB457A28A2A5FADC4CEB23837 /* Pods-NaukriDemo-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaukriDemo-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		01869156E4C1A6171A70F3F098AF0DB3 /* Pods-NaukriDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		28ABE103BD1FC5BB9AA1AE2D05F1A0BF /* Pods-NaukriDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		31CA7FC606A61CE281CA66315F5715D5 /* libPods-NaukriDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NaukriDemo-tvOSTests.a"; path = "libPods-NaukriDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41221E83C00CCF2BE40B6D435683E4AA /* Pods-NaukriDemo-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaukriDemo-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		42644903B0F638039D478038DDB9A28F /* libPods-NaukriDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NaukriDemo-tvOS.a"; path = "libPods-NaukriDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA1E368266F7ED45A99158FEE5BBA7A /* libPods-NaukriDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NaukriDemoTests.a"; path = "libPods-NaukriDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCBDDEABA8C7367EE727C2F1ACA018D /* Pods-NaukriDemo-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaukriDemo-tvOS-dummy.m"; sourceTree = "<group>"; };
+		5617B9944B0CF0799A2EB78D936049E7 /* Pods-NaukriDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.xcconfig; sourceTree = "<group>"; };
+		751E53E337AB1580CAEF05F631BEDBDE /* Pods-NaukriDemo-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaukriDemo-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C1488A102F84789496AAF86A6F4FD8B /* Pods-NaukriDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8B1B1AD747CFCC3F95C7BDC473C271C4 /* Pods-NaukriDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B91DD923368B9F7242951ECC7660E12 /* Pods-NaukriDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaukriDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		920A418B5827B8AD74D01AE8E0297753 /* Pods-NaukriDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaukriDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		926BF422F70740ADA68976F140A455F3 /* Pods-NaukriDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaukriDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		97F950D5F5CD44CCAD8F949827A53812 /* Pods-NaukriDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9AC337625B18E4F2EBAC5E9B339B0E61 /* Pods-NaukriDemo-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaukriDemo-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE178E1D3CAF8F7584CE075F33489AE /* Pods-NaukriDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaukriDemo-dummy.m"; sourceTree = "<group>"; };
+		A07BCF88FB8DC5D0BB34FFEA4CF05670 /* Pods-NaukriDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaukriDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8F0E45F46410FA86077BC1FBD5AD374 /* Pods-NaukriDemo-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaukriDemo-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B18D9C092F7B4E478F57CF6DCA8AA213 /* libPods-NaukriDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NaukriDemo.a"; path = "libPods-NaukriDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterReactNativeShared.xcconfig; sourceTree = "<group>"; };
+		EAC82674B1344AB268422DE3B4E00847 /* Pods-NaukriDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		F791E47972193B261477F1C53018F0D6 /* Pods-NaukriDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaukriDemoTests-dummy.m"; sourceTree = "<group>"; };
+		FD83364A296F486932BE184890485FB3 /* Pods-NaukriDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaukriDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31A0180DE1BCFE868DC5A3D2B7E0B17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C267141D0186BFAFA5FF059B11BD7F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC9C63327C633348B0BF70E8DA231BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E2C77541E778E47885C9C47BCB2142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165256E5C96C30E68617102CEA065327 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2EDA00A107B9DAC802B7DD38372CE90 /* Pods-NaukriDemo */,
+				6D41AB0877188EFFD5DE75EFBAEE1D30 /* Pods-NaukriDemo-tvOS */,
+				4E84B0F26931FA3F1091D813B26661D4 /* Pods-NaukriDemo-tvOSTests */,
+				9F929534E93562DE4755F74BD11A89A6 /* Pods-NaukriDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */,
+				C2F79BBE68CAC64203149AF75B3502BF /* Support Files */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		23977631E0E947775B0FF421D89FC310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E84B0F26931FA3F1091D813B26661D4 /* Pods-NaukriDemo-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F0E45F46410FA86077BC1FBD5AD374 /* Pods-NaukriDemo-tvOSTests-acknowledgements.markdown */,
+				751E53E337AB1580CAEF05F631BEDBDE /* Pods-NaukriDemo-tvOSTests-acknowledgements.plist */,
+				41221E83C00CCF2BE40B6D435683E4AA /* Pods-NaukriDemo-tvOSTests-dummy.m */,
+				FD83364A296F486932BE184890485FB3 /* Pods-NaukriDemo-tvOSTests.debug.xcconfig */,
+				8B1B1AD747CFCC3F95C7BDC473C271C4 /* Pods-NaukriDemo-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-NaukriDemo-tvOSTests";
+			path = "Target Support Files/Pods-NaukriDemo-tvOSTests";
+			sourceTree = "<group>";
+		};
+		5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */,
+				94182EE150168D8F091F83224D20C0A4 /* Core */,
+				9B7151692B2AC286B115FA8800335CA1 /* Crashes */,
+				D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		606068FCAC0F763B4ADB95FD448A00FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18D9C092F7B4E478F57CF6DCA8AA213 /* libPods-NaukriDemo.a */,
+				42644903B0F638039D478038DDB9A28F /* libPods-NaukriDemo-tvOS.a */,
+				31CA7FC606A61CE281CA66315F5715D5 /* libPods-NaukriDemo-tvOSTests.a */,
+				4CA1E368266F7ED45A99158FEE5BBA7A /* libPods-NaukriDemoTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D41AB0877188EFFD5DE75EFBAEE1D30 /* Pods-NaukriDemo-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				9AC337625B18E4F2EBAC5E9B339B0E61 /* Pods-NaukriDemo-tvOS-acknowledgements.markdown */,
+				00F3996EB457A28A2A5FADC4CEB23837 /* Pods-NaukriDemo-tvOS-acknowledgements.plist */,
+				4CCBDDEABA8C7367EE727C2F1ACA018D /* Pods-NaukriDemo-tvOS-dummy.m */,
+				5617B9944B0CF0799A2EB78D936049E7 /* Pods-NaukriDemo-tvOS.debug.xcconfig */,
+				97F950D5F5CD44CCAD8F949827A53812 /* Pods-NaukriDemo-tvOS.release.xcconfig */,
+			);
+			name = "Pods-NaukriDemo-tvOS";
+			path = "Target Support Files/Pods-NaukriDemo-tvOS";
+			sourceTree = "<group>";
+		};
+		6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		94182EE150168D8F091F83224D20C0A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				23977631E0E947775B0FF421D89FC310 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9B7151692B2AC286B115FA8800335CA1 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		9F929534E93562DE4755F74BD11A89A6 /* Pods-NaukriDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A07BCF88FB8DC5D0BB34FFEA4CF05670 /* Pods-NaukriDemoTests-acknowledgements.markdown */,
+				920A418B5827B8AD74D01AE8E0297753 /* Pods-NaukriDemoTests-acknowledgements.plist */,
+				F791E47972193B261477F1C53018F0D6 /* Pods-NaukriDemoTests-dummy.m */,
+				01869156E4C1A6171A70F3F098AF0DB3 /* Pods-NaukriDemoTests.debug.xcconfig */,
+				EAC82674B1344AB268422DE3B4E00847 /* Pods-NaukriDemoTests.release.xcconfig */,
+			);
+			name = "Pods-NaukriDemoTests";
+			path = "Target Support Files/Pods-NaukriDemoTests";
+			sourceTree = "<group>";
+		};
+		BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F79BBE68CAC64203149AF75B3502BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterReactNativeShared";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				EE373CD21EE89767163B4F9D8A04C324 /* Pods */,
+				606068FCAC0F763B4ADB95FD448A00FF /* Products */,
+				165256E5C96C30E68617102CEA065327 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE373CD21EE89767163B4F9D8A04C324 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */,
+				1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2EDA00A107B9DAC802B7DD38372CE90 /* Pods-NaukriDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8B91DD923368B9F7242951ECC7660E12 /* Pods-NaukriDemo-acknowledgements.markdown */,
+				926BF422F70740ADA68976F140A455F3 /* Pods-NaukriDemo-acknowledgements.plist */,
+				9DE178E1D3CAF8F7584CE075F33489AE /* Pods-NaukriDemo-dummy.m */,
+				28ABE103BD1FC5BB9AA1AE2D05F1A0BF /* Pods-NaukriDemo.debug.xcconfig */,
+				7C1488A102F84789496AAF86A6F4FD8B /* Pods-NaukriDemo.release.xcconfig */,
+			);
+			name = "Pods-NaukriDemo";
+			path = "Target Support Files/Pods-NaukriDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		003A73E84DD533E6C734F717ACE19956 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EE73A0EEEFE215605DB6F9C785F52A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E2C32B6E0755435BD200DE9D476C0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B359F49E23E7B33EAB0D92AFF302E1C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B3F56CD8CCDB93FCE0FD7220E8E1A02 /* Pods-NaukriDemo-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DCC9BA568B5396F0212D84AC179284 /* Build configuration list for PBXNativeTarget "Pods-NaukriDemo-tvOSTests" */;
+			buildPhases = (
+				17EE73A0EEEFE215605DB6F9C785F52A /* Headers */,
+				96661E671D56252238A9580E4C9004DF /* Sources */,
+				31A0180DE1BCFE868DC5A3D2B7E0B17A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D63926F53C27BB9171A912C24733DED /* PBXTargetDependency */,
+			);
+			name = "Pods-NaukriDemo-tvOSTests";
+			productName = "Pods-NaukriDemo-tvOSTests";
+			productReference = 31CA7FC606A61CE281CA66315F5715D5 /* libPods-NaukriDemo-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		74C4D04AF2802C86880A3C66E959D442 /* Pods-NaukriDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9EB0A2D3BFFDAEF67745B30FE79CB7 /* Build configuration list for PBXNativeTarget "Pods-NaukriDemoTests" */;
+			buildPhases = (
+				A0E2C32B6E0755435BD200DE9D476C0A /* Headers */,
+				CFAB702F2880F6F4F42B8DEAA8AD701A /* Sources */,
+				E3E2C77541E778E47885C9C47BCB2142 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B18F0C2738BC0D40D42BC4E1A93C4E /* PBXTargetDependency */,
+			);
+			name = "Pods-NaukriDemoTests";
+			productName = "Pods-NaukriDemoTests";
+			productReference = 4CA1E368266F7ED45A99158FEE5BBA7A /* libPods-NaukriDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7746B4D8C423970E66C4428FEBD612C9 /* Pods-NaukriDemo-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3EA2136284CA2E88E58C4D55899470 /* Build configuration list for PBXNativeTarget "Pods-NaukriDemo-tvOS" */;
+			buildPhases = (
+				B359F49E23E7B33EAB0D92AFF302E1C2 /* Headers */,
+				81F7E094F60CF4CBF369AC1B00791119 /* Sources */,
+				ACC9C63327C633348B0BF70E8DA231BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NaukriDemo-tvOS";
+			productName = "Pods-NaukriDemo-tvOS";
+			productReference = 42644903B0F638039D478038DDB9A28F /* libPods-NaukriDemo-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		881927558E5E873AAE7473C755430613 /* Pods-NaukriDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F1672F6D83F29F61799E7F188280BC /* Build configuration list for PBXNativeTarget "Pods-NaukriDemo" */;
+			buildPhases = (
+				003A73E84DD533E6C734F717ACE19956 /* Headers */,
+				2553D737D8AF06ABB8D3747B93A1AE82 /* Sources */,
+				4C267141D0186BFAFA5FF059B11BD7F8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB798854302A0AEBBE8418622E18FA0C /* PBXTargetDependency */,
+				391260C2C385831CF00A2CA3B62578C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-NaukriDemo";
+			productName = "Pods-NaukriDemo";
+			productReference = B18D9C092F7B4E478F57CF6DCA8AA213 /* libPods-NaukriDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 606068FCAC0F763B4ADB95FD448A00FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */,
+				ED8B76EC90CA1D894B6D38663D04C292 /* AppCenterReactNativeShared */,
+				881927558E5E873AAE7473C755430613 /* Pods-NaukriDemo */,
+				7746B4D8C423970E66C4428FEBD612C9 /* Pods-NaukriDemo-tvOS */,
+				4B3F56CD8CCDB93FCE0FD7220E8E1A02 /* Pods-NaukriDemo-tvOSTests */,
+				74C4D04AF2802C86880A3C66E959D442 /* Pods-NaukriDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2553D737D8AF06ABB8D3747B93A1AE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35093B0635D472EBD58DB12EA6EFA5EF /* Pods-NaukriDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F7E094F60CF4CBF369AC1B00791119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4966DA96C1CA1D8720750EB4DD350F2 /* Pods-NaukriDemo-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96661E671D56252238A9580E4C9004DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167F5AC7CF8E6F0157B11DEA041DCE66 /* Pods-NaukriDemo-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAB702F2880F6F4F42B8DEAA8AD701A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532187D0F1873761532863AA256F14A8 /* Pods-NaukriDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = 397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */;
+			targetProxy = D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */;
+		};
+		391260C2C385831CF00A2CA3B62578C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterReactNativeShared;
+			target = ED8B76EC90CA1D894B6D38663D04C292 /* AppCenterReactNativeShared */;
+			targetProxy = AECB9CEA14408934293E3F6CD384CB1B /* PBXContainerItemProxy */;
+		};
+		39B18F0C2738BC0D40D42BC4E1A93C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NaukriDemo";
+			target = 881927558E5E873AAE7473C755430613 /* Pods-NaukriDemo */;
+			targetProxy = 5530AFEB3B879A184509AD6EE9BE728F /* PBXContainerItemProxy */;
+		};
+		9D63926F53C27BB9171A912C24733DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NaukriDemo-tvOS";
+			target = 7746B4D8C423970E66C4428FEBD612C9 /* Pods-NaukriDemo-tvOS */;
+			targetProxy = 211CD2E7EC573B5E9981EBEC32374560 /* PBXContainerItemProxy */;
+		};
+		BB798854302A0AEBBE8418622E18FA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = 397BBDFEBE9CC818487FA8ABB7623A33 /* AppCenter */;
+			targetProxy = 32FA5FD4FD89FD2CB236185D0605782D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14A4AE81C1A3A0D173F388F74CDCD2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01869156E4C1A6171A70F3F098AF0DB3 /* Pods-NaukriDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F631C897D84F5BBC5A19E7EF2B90525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD83364A296F486932BE184890485FB3 /* Pods-NaukriDemo-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		44DA8D30A185CF39FF38CACD51676CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6F4D25CB9F599D775DBC451590213731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD6B865F1A572DFCAE26888C429D30FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1B1AD747CFCC3F95C7BDC473C271C4 /* Pods-NaukriDemo-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA183067CC2323D9F78F93A27E35B04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC82674B1344AB268422DE3B4E00847 /* Pods-NaukriDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0D9E7FE73C40C14625538BD286A5731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5617B9944B0CF0799A2EB78D936049E7 /* Pods-NaukriDemo-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		EEEDFDF317B7852DA3C2C485E80773D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F950D5F5CD44CCAD8F949827A53812 /* Pods-NaukriDemo-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5440D660A0699C1ADCEEE94B0E8212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1488A102F84789496AAF86A6F4FD8B /* Pods-NaukriDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1B9C1787B611B4B0DC5C993C462289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ABE103BD1FC5BB9AA1AE2D05F1A0BF /* Pods-NaukriDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F1672F6D83F29F61799E7F188280BC /* Build configuration list for PBXNativeTarget "Pods-NaukriDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1B9C1787B611B4B0DC5C993C462289 /* Debug */,
+				FC5440D660A0699C1ADCEEE94B0E8212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DCC9BA568B5396F0212D84AC179284 /* Build configuration list for PBXNativeTarget "Pods-NaukriDemo-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F631C897D84F5BBC5A19E7EF2B90525 /* Debug */,
+				BD6B865F1A572DFCAE26888C429D30FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3EA2136284CA2E88E58C4D55899470 /* Build configuration list for PBXNativeTarget "Pods-NaukriDemo-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D9E7FE73C40C14625538BD286A5731 /* Debug */,
+				EEEDFDF317B7852DA3C2C485E80773D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */,
+				44DA8D30A185CF39FF38CACD51676CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D25CB9F599D775DBC451590213731 /* Debug */,
+				8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9EB0A2D3BFFDAEF67745B30FE79CB7 /* Build configuration list for PBXNativeTarget "Pods-NaukriDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A4AE81C1A3A0D173F388F74CDCD2F9 /* Debug */,
+				DA183067CC2323D9F78F93A27E35B04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
