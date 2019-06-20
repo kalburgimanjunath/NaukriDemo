@@ -2,7 +2,7 @@ import React from 'react';
 import {
     View,
 } from 'react-native';
-import { AuthStyle } from './Styles';
+import { CommonStyle } from '../../Styles/CommonStyle';
 import * as Common from '../../Common';
 
 class WelcomeScreen extends React.Component {
@@ -15,16 +15,28 @@ class WelcomeScreen extends React.Component {
     }
 
     render() {
+        console.disableYellowBox = true; // disable yellow warnning msg
         return (
             <View style={{ flex: 1 }}>
-                <View style={AuthStyle.Welcome_upr_View}>
-                    <Common.ImageComp imageUrl={require('../../assets/imgs/logo.png')} wth={180} hth={180} />
+                <View style={CommonStyle.Welcome_upr_View}>
+                    <Common.ImageComp 
+                        imageUrl={require('../../assets/imgs/logo.png')} 
+                        wth={180} 
+                        hth={180} />
                 </View>
 
-                <View style={AuthStyle.Welcome_Btm_View_container}>
-                    <View style={AuthStyle.Welcome_Btm_View}>
-                        <Common.Button title="Login" clicked={() => this.touchHandler('Login')} />
-                        <Common.Button title="Signup" clicked={() => this.touchHandler('Signup')} />
+                <View style={CommonStyle.Welcome_Btm_View_container}>
+                    <View style={CommonStyle.Welcome_Btm_View}>
+                        <Common.Button
+                            title="Login"
+                            customStyle={[CommonStyle.btn_touch_outline]}
+                            txtStyle={CommonStyle.btn_touch_outline_text}
+                            clicked={() => this.touchHandler('Login')} />
+                        <Common.Button
+                            title="Signup"
+                            customStyle={[CommonStyle.btn_touch_outline]}
+                            txtStyle={CommonStyle.btn_touch_outline_text}
+                            clicked={() => this.touchHandler('Signup')} />
                     </View>
                 </View>
             </View>

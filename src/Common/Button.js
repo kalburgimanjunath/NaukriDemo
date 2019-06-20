@@ -1,15 +1,15 @@
 import React from 'react';
 import { TouchableHighlight, Text } from 'react-native';
-import { CommonStyle } from './Styles';
 
 const Button = (props) => {
+    console.log(...props.customStyle);
     return (
         <TouchableHighlight
-            style={CommonStyle.btn_touch_outline}
+            style={[...props.customStyle]}
             onPress={props.clicked}
             underlayColor='transparent'>
             <Text
-                style={CommonStyle.btn_text}>
+                style={props.txtStyle}>
                 {props.title}
             </Text>
         </TouchableHighlight>

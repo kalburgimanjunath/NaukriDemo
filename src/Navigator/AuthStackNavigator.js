@@ -1,6 +1,5 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation';
-import * as Common from '../Common';
 import * as Screens from '../Screens';
 
 const AuthStack = createStackNavigator({
@@ -13,16 +12,19 @@ const AuthStack = createStackNavigator({
     Login: {
         screen: Screens.LoginScreen,
         navigationOptions: {
-            //headerLeft: null,
-            headerTitle: 'Login'
+            headerTitle: 'Login',
         },
     },
     Signup: {
-        screen: Screens.SignupScreen
+        screen: Screens.SignupScreen,
+        navigationOptions: {
+            headerTitle: 'Signup',
+        },
     }
 }, {
         mode: 'modal',
-        initialRouteName: 'Login'
+        //initialRouteName: 'Welcome',
+        headerBackTitleVisible: false
     });
 
 export default AuthStack;
