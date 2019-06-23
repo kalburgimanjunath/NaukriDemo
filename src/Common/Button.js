@@ -2,7 +2,8 @@ import React from 'react';
 import { TouchableHighlight, Text } from 'react-native';
 
 const Button = (props) => {
-    console.log(...props.customStyle);
+    console.log("*********");
+    console.log(props);
     return (
         <TouchableHighlight
             style={[...props.customStyle]}

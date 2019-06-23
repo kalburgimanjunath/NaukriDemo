@@ -17,17 +17,3 @@ export default class App extends Component{
 }
 
 const AppNavigator = createAppContainer(AuthStackNavigator);
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'center',
-    backgroundColor: '#efe5fd',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-});

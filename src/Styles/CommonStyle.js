@@ -69,6 +69,33 @@ const CommonStyle = StyleSheet.create({
         color: '#fff'
     },
 
+    actionsheet_button: {
+        width: WP('100%'), 
+        height: 50, 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+    },
+
+    actionsheet_cancel: {
+        width: '90%', 
+        height: 50, 
+        backgroundColor: '#fff', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        borderRadius: 20, 
+    },
+
+    actionsheet_text: {
+        color: '#1a4e5d',
+        fontSize: 18
+    },  
+
+    border:{
+        borderWidth: 1, 
+        borderStyle: 'solid', 
+        borderColor: '#ccc'
+    },
+
     InputStyle: {
         width: WP('95%'), 
         height: HP('6.2%'), 
@@ -93,6 +120,12 @@ const CommonStyle = StyleSheet.create({
     topMargin: {
         marginTop: 15
     },
+    top10Margin:{
+        marginTop: 10,
+    },
+    bottom10Margin: {
+        marginBottom: 10, 
+    }
     
 });
 

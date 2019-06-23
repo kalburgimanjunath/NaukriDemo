@@ -13,6 +13,8 @@ target 'NaukriDemo' do
   
 
   platform :ios, '9.0'
+  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+
   target 'NaukriDemoTests' do
     inherit! :search_paths
     # Pods for testing

@@ -3,16 +3,16 @@ import {
     TextInput
 } from 'react-native';
 
-const Input = (props) => {
+const Input = React.forwardRef((props, ref) => {
     return (
         <TextInput
             placeholder={props.placeTitle}
             placeholderTextColor='#1a4e5d'
             style={props.textStyle}
             secureTextEntry={props.secureText}
-            ref={props.myRef}
+            ref={ref}
             {...props}/>
     );
-}
+})
 
 export { Input };
